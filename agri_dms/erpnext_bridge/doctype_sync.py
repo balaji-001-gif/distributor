@@ -9,7 +9,18 @@ def sync_manufacturer_to_supplier(doc, method=None):
         supplier = frappe.new_doc("Supplier")
         supplier.supplier_name = doc.manufacturer_name
     
-    supplier.supplier_group = "Distributor" # Default group
+    # Ensure Supplier Group exists
+    supplier_group = "Distributor"
+    if not frappe.db.exists("Supplier Group", supplier_group):
+        sg = frappe.get_doc({
+            "doctype": "Supplier Group",
+            "supplier_group_name": supplier_group,
+            "parent_supplier_group": "All Supplier Groups"
+        })
+        sg.insert(ignore_permissions=True)
+        frappe.db.commit()
+
+    supplier.supplier_group = supplier_group # Default group
     supplier.country = doc.country
     supplier.tax_id = doc.gst_number
     supplier.save(ignore_permissions=True)
@@ -25,7 +36,18 @@ def sync_distributor_to_customer(doc, method=None):
         customer = frappe.new_doc("Customer")
         customer.customer_name = doc.distributor_name
     
-    customer.customer_group = "Distributor"
+    # Ensure Customer Group exists
+    customer_group = "Distributor"
+    if not frappe.db.exists("Customer Group", customer_group):
+        cg = frappe.get_doc({
+            "doctype": "Customer Group",
+            "customer_group_name": customer_group,
+            "parent_customer_group": "All Customer Groups"
+        })
+        cg.insert(ignore_permissions=True)
+        frappe.db.commit()
+
+    customer.customer_group = customer_group
     customer.territory = doc.territory or "All Territories"
     customer.tax_id = doc.gst_number
     customer.save(ignore_permissions=True)
