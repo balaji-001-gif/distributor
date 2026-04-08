@@ -9,8 +9,8 @@ app_license = "MIT"
 
 # Install Hooks
 # -------------
-after_install = "agri_dms.agri_dms.agri_dms.setup_roles.create_roles"
-after_migrate = "agri_dms.agri_dms.agri_dms.setup_roles.create_roles"
+after_install = "agri_dms.agri_dms.setup_roles.create_roles"
+after_migrate = "agri_dms.agri_dms.setup_roles.create_roles"
 
 # Fixtures
 # --------
