@@ -52,6 +52,12 @@ Run the role initialization script to create required DMS roles:
 bench --site [your-site-name] execute agri_dms.agri_dms.setup_roles.create_roles
 ```
 
+#### 5. Load Demo Data (Optional)
+Populate the system with a full suite of demo records (Manufacturers, Machines, Distributors, Sales, and Commissions):
+```bash
+bench --site [your-site-name] execute agri_dms.agri_dms.demo_data.setup_demo_data
+```
+
 ## 🔄 ERPNext Integration
 
 The application includes an automated bridge (`doctype_sync.py`) that handles:
