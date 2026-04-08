@@ -3,8 +3,16 @@
  "name": "Machine",
  "module": "Agri DMS",
  "custom": 0,
- "autoname": "hash",
+ "autoname": "naming_series:",
  "fields": [
+  {
+   "fieldname": "naming_series",
+   "label": "Naming Series",
+   "fieldtype": "Select",
+   "options": "MACH-.#####",
+   "reqd": 1,
+   "default": "MACH-.#####"
+  },
   {
    "fieldname": "machine_name",
    "label": "Machine Name",

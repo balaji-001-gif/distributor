@@ -3,8 +3,16 @@
  "name": "Customer Sale",
  "module": "Agri DMS",
  "custom": 0,
- "autoname": "hash",
+ "autoname": "naming_series:",
  "fields": [
+  {
+   "fieldname": "naming_series",
+   "label": "Naming Series",
+   "fieldtype": "Select",
+   "options": "SALE-.YYYY.-.#####",
+   "reqd": 1,
+   "default": "SALE-.YYYY.-.#####"
+  },
   {
    "fieldname": "sale_number",
    "label": "Sale Number",

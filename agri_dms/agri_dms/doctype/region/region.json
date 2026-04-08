@@ -3,8 +3,16 @@
  "name": "Region",
  "module": "Agri DMS",
  "custom": 0,
- "autoname": "hash",
+ "autoname": "naming_series:",
  "fields": [
+  {
+   "fieldname": "naming_series",
+   "label": "Naming Series",
+   "fieldtype": "Select",
+   "options": "REG-.#####",
+   "reqd": 1,
+   "default": "REG-.#####"
+  },
   {
    "fieldname": "region_name",
    "label": "Region Name",
