@@ -3,6 +3,7 @@
  "name": "Distributor Target vs Achievement",
  "module": "Agri DMS",
  "report_type": "Script Report",
+ "ref_doctype": "Distributor Target",
  "is_standard": "Yes",
  "columns": [],
  "filters": []

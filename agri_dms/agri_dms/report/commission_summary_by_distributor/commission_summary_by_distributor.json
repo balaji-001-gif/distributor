@@ -3,6 +3,7 @@
  "name": "Commission Summary by Distributor",
  "module": "Agri DMS",
  "report_type": "Script Report",
+ "ref_doctype": "Commission Ledger",
  "is_standard": "Yes",
  "columns": [],
  "filters": []

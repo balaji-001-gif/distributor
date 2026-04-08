@@ -3,6 +3,7 @@
  "name": "Distributor Stock Ledger",
  "module": "Agri DMS",
  "report_type": "Query Report",
+ "ref_doctype": "Distributor Stock",
  "is_standard": "Yes",
  "columns": [],
  "filters": []
