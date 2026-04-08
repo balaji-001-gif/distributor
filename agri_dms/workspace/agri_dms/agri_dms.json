@@ -106,7 +106,7 @@
      {"type":"Report","label":"Machine-wise Sales","link_to":"Machine-wise Sales Analysis"},
      {"type":"Report","label":"Monthly Sales Trend","link_to":"Monthly Sales Trend"},
      {"type":"Report","label":"Target vs Achievement","link_to":"Distributor Target vs Achievement"},
-     {"type":"Report","label":"Distributor Ageing","link_to":"Distributor Ageing & Outstanding"}
+     {"type":"Report","label":"Distributor Ageing","link_to":"Distributor Ageing and Outstanding"}
     ]
    }
   }

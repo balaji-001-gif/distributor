@@ -1,6 +1,6 @@
 {
  "doctype": "Report",
- "name": "Distributor Ageing & Outstanding",
+ "name": "Distributor Ageing and Outstanding",
  "module": "Agri DMS",
  "report_type": "Script Report",
  "is_standard": "Yes",
