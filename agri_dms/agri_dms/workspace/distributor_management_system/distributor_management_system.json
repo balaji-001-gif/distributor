@@ -33,7 +33,8 @@
  "links": [
   {
    "label": "Manufacturer",
-   "type": "Card",
+   "type": "Link",
+   "is_header": 1,
    "link_type": "",
    "icon": "factory"
   },
@@ -57,7 +58,8 @@
   },
   {
    "label": "Distributor",
-   "type": "Card",
+   "type": "Link",
+   "is_header": 1,
    "link_type": "",
    "icon": "users"
   },
@@ -81,7 +83,8 @@
   },
   {
    "label": "Sales & Orders",
-   "type": "Card",
+   "type": "Link",
+   "is_header": 1,
    "link_type": "",
    "icon": "shopping-cart"
   },
@@ -105,7 +108,8 @@
   },
   {
    "label": "Inventory",
-   "type": "Card",
+   "type": "Link",
+   "is_header": 1,
    "link_type": "",
    "icon": "archive"
   },
@@ -129,7 +133,8 @@
   },
   {
    "label": "Commission & Payouts",
-   "type": "Card",
+   "type": "Link",
+   "is_header": 1,
    "link_type": "",
    "icon": "percentage"
   },
@@ -153,7 +158,8 @@
   },
   {
    "label": "Reports & Analytics",
-   "type": "Card",
+   "type": "Link",
+   "is_header": 1,
    "link_type": "",
    "icon": "trending-up"
   },
@@ -188,5 +194,5 @@
    "type": "Link"
   }
  ],
- "content": "[{\"id\":\"section-manufacturer\",\"type\":\"card\",\"data\":{\"card_name\":\"Manufacturer\",\"col\":4,\"links\":[{\"type\":\"DocType\",\"label\":\"Manufacturer\",\"link_to\":\"Manufacturer\"},{\"type\":\"DocType\",\"label\":\"Machine Category\",\"link_to\":\"Machine Category\"},{\"type\":\"DocType\",\"label\":\"Machine\",\"link_to\":\"Machine\"}]}},{\"id\":\"section-distributor\",\"type\":\"card\",\"data\":{\"card_name\":\"Distributor\",\"col\":4,\"links\":[{\"type\":\"DocType\",\"label\":\"Distributor\",\"link_to\":\"Distributor\"},{\"type\":\"DocType\",\"label\":\"Region\",\"link_to\":\"Region\"},{\"type\":\"DocType\",\"label\":\"Distributor Target\",\"link_to\":\"Distributor Target\"}]}},{\"id\":\"section-sales\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales & Orders\",\"col\":4,\"links\":[{\"type\":\"DocType\",\"label\":\"Customer Sale\",\"link_to\":\"Customer Sale\"},{\"type\":\"DocType\",\"label\":\"Distributor Purchase Order\",\"link_to\":\"Distributor Purchase Order\"},{\"type\":\"DocType\",\"label\":\"Goods Receipt Note\",\"link_to\":\"Goods Receipt Note\"}]}},{\"id\":\"section-inventory\",\"type\":\"card\",\"data\":{\"card_name\":\"Inventory\",\"col\":4,\"links\":[{\"type\":\"DocType\",\"label\":\"Distributor Stock\",\"link_to\":\"Distributor Stock\"},{\"type\":\"DocType\",\"label\":\"Stock Transfer\",\"link_to\":\"Stock Transfer\"},{\"type\":\"Report\",\"label\":\"Stock Ledger\",\"link_to\":\"Distributor Stock Ledger\"}]}},{\"id\":\"section-commission\",\"type\":\"card\",\"data\":{\"card_name\":\"Commission & Payouts\",\"col\":4,\"links\":[{\"type\":\"DocType\",\"label\":\"Commission Scheme\",\"link_to\":\"Commission Scheme\"},{\"type\":\"DocType\",\"label\":\"Commission Ledger\",\"link_to\":\"Commission Ledger\"},{\"type\":\"DocType\",\"label\":\"Commission Payout\",\"link_to\":\"Commission Payout\"}]}},{\"id\":\"section-reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Analytics\",\"col\":4,\"links\":[{\"type\":\"Report\",\"label\":\"Distributor Sales Summary\",\"link_to\":\"Distributor-wise Sales Summary\"},{\"type\":\"Report\",\"label\":\"Machine-wise Sales\",\"link_to\":\"Machine-wise Sales Analysis\"},{\"type\":\"Report\",\"label\":\"Monthly Sales Trend\",\"link_to\":\"Monthly Sales Trend\"},{\"type\":\"Report\",\"label\":\"Target vs Achievement\",\"link_to\":\"Distributor Target vs Achievement\"},{\"type\":\"Report\",\"label\":\"Distributor Ageing\",\"link_to\":\"Distributor Ageing and Outstanding\"}]}}]"
+ "content": ""
 }
