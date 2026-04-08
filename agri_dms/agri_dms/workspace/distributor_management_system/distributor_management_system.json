@@ -6,7 +6,7 @@
  "icon": "agriculture",
  "module": "Agri DMS",
  "is_default": 1,
- "is_standard": 1,
+ "is_standard": 0,
  "public": 1,
  "roles": [
   {"role": "DMS Admin"},
@@ -33,8 +33,7 @@
  "links": [
   {
    "label": "Manufacturer",
-   "type": "Link",
-   "is_header": 1,
+   "type": "Card Break",
    "link_type": "",
    "icon": "factory"
   },
@@ -58,8 +57,7 @@
   },
   {
    "label": "Distributor",
-   "type": "Link",
-   "is_header": 1,
+   "type": "Card Break",
    "link_type": "",
    "icon": "users"
   },
@@ -83,8 +81,7 @@
   },
   {
    "label": "Sales & Orders",
-   "type": "Link",
-   "is_header": 1,
+   "type": "Card Break",
    "link_type": "",
    "icon": "shopping-cart"
   },
@@ -108,8 +105,7 @@
   },
   {
    "label": "Inventory",
-   "type": "Link",
-   "is_header": 1,
+   "type": "Card Break",
    "link_type": "",
    "icon": "archive"
   },
@@ -133,8 +129,7 @@
   },
   {
    "label": "Commission & Payouts",
-   "type": "Link",
-   "is_header": 1,
+   "type": "Card Break",
    "link_type": "",
    "icon": "percentage"
   },
@@ -158,8 +153,7 @@
   },
   {
    "label": "Reports & Analytics",
-   "type": "Link",
-   "is_header": 1,
+   "type": "Card Break",
    "link_type": "",
    "icon": "trending-up"
   },
@@ -194,5 +188,5 @@
    "type": "Link"
   }
  ],
- "content": "[{\"type\":\"card\",\"data\":{\"card_name\":\"Manufacturer\",\"links\":\"[{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Manufacturer\\\",\\\"name\\\":\\\"Manufacturer\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Machine Category\\\",\\\"name\\\":\\\"Machine Category\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Machine\\\",\\\"name\\\":\\\"Machine\\\"}]\"}},{\"type\":\"card\",\"data\":{\"card_name\":\"Distributor\",\"links\":\"[{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Distributor\\\",\\\"name\\\":\\\"Distributor\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Region\\\",\\\"name\\\":\\\"Region\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Distributor Target\\\",\\\"name\\\":\\\"Distributor Target\\\"}]\"}},{\"type\":\"card\",\"data\":{\"card_name\":\"Sales & Orders\",\"links\":\"[{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Customer Sale\\\",\\\"name\\\":\\\"Customer Sale\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Distributor Purchase Order\\\",\\\"name\\\":\\\"Distributor Purchase Order\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Goods Receipt Note\\\",\\\"name\\\":\\\"Goods Receipt Note\\\"}]\"}},{\"type\":\"card\",\"data\":{\"card_name\":\"Inventory\",\"links\":\"[{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Distributor Stock\\\",\\\"name\\\":\\\"Distributor Stock\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Stock Transfer\\\",\\\"name\\\":\\\"Stock Transfer\\\"},{\\\"type\\\":\\\"Report\\\",\\\"label\\\":\\\"Stock Ledger\\\",\\\"name\\\":\\\"Distributor Stock Ledger\\\"}]\"}},{\"type\":\"card\",\"data\":{\"card_name\":\"Commission & Payouts\",\"links\":\"[{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Commission Scheme\\\",\\\"name\\\":\\\"Commission Scheme\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Commission Ledger\\\",\\\"name\\\":\\\"Commission Ledger\\\"},{\\\"type\\\":\\\"DocType\\\",\\\"label\\\":\\\"Commission Payout\\\",\\\"name\\\":\\\"Commission Payout\\\"}]\"}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Analytics\",\"links\":\"[{\\\"type\\\":\\\"Report\\\",\\\"label\\\":\\\"Distributor Sales Summary\\\",\\\"name\\\":\\\"Distributor-wise Sales Summary\\\"},{\\\"type\\\":\\\"Report\\\",\\\"label\\\":\\\"Machine-wise Sales\\\",\\\"name\\\":\\\"Machine-wise Sales Analysis\\\"},{\\\"type\\\":\\\"Report\\\",\\\"label\\\":\\\"Monthly Sales Trend\\\",\\\"name\\\":\\\"Monthly Sales Trend\\\"},{\\\"type\\\":\\\"Report\\\",\\\"label\\\":\\\"Target vs Achievement\\\",\\\"name\\\":\\\"Distributor Target vs Achievement\\\"},{\\\"type\\\":\\\"Report\\\",\\\"label\\\":\\\"Distributor Ageing\\\",\\\"name\\\":\\\"Distributor Ageing and Outstanding\\\"}]\"}}]"
+ "content": "[{\"type\":\"card\",\"data\":{\"card_name\":\"Manufacturer\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Distributor\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Sales & Orders\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Inventory\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Commission & Payouts\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Analytics\",\"col\":4}}]"
 }
