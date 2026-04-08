@@ -1,1 +1,1 @@
-__version__ = '1.0.0'
+# Agri DMS Module
