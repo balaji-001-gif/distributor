@@ -34,6 +34,7 @@
   {
    "label": "Manufacturer",
    "type": "Card",
+   "link_type": "",
    "icon": "factory"
   },
   {
@@ -57,6 +58,7 @@
   {
    "label": "Distributor",
    "type": "Card",
+   "link_type": "",
    "icon": "users"
   },
   {
@@ -80,6 +82,7 @@
   {
    "label": "Sales & Orders",
    "type": "Card",
+   "link_type": "",
    "icon": "shopping-cart"
   },
   {
@@ -103,6 +106,7 @@
   {
    "label": "Inventory",
    "type": "Card",
+   "link_type": "",
    "icon": "archive"
   },
   {
@@ -126,6 +130,7 @@
   {
    "label": "Commission & Payouts",
    "type": "Card",
+   "link_type": "",
    "icon": "percentage"
   },
   {
@@ -149,6 +154,7 @@
   {
    "label": "Reports & Analytics",
    "type": "Card",
+   "link_type": "",
    "icon": "trending-up"
   },
   {
