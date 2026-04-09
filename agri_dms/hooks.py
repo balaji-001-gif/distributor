@@ -9,15 +9,16 @@ app_license = "MIT"
 
 # Install Hooks
 # -------------
-after_install = "agri_dms.agri_dms.setup_roles.create_roles"
-after_migrate = "agri_dms.agri_dms.setup_roles.create_roles"
-
 # Fixtures
 # --------
 fixtures = [
     {
         "dt": "Role",
         "filters": [["role_name", "in", ["DMS Admin", "DMS Distributor Manager", "DMS Sales Executive", "DMS Finance"]]]
+    },
+    {
+        "dt": "Module Def",
+        "filters": [["name", "in", ["Agri DMS"]]]
     }
 ]
 
