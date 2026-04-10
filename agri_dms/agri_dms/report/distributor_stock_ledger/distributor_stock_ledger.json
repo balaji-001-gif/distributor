@@ -7,5 +7,15 @@
  "is_standard": "Yes",
  "columns": [],
  "filters": [],
- "roles": "DMS Admin\nDMS Distributor Manager\nDMS Sales Executive"
+ "roles": [
+  {
+   "role": "DMS Admin"
+  },
+  {
+   "role": "DMS Distributor Manager"
+  },
+  {
+   "role": "DMS Sales Executive"
+  }
+ ]
 }

@@ -7,5 +7,12 @@
  "is_standard": "Yes",
  "columns": [],
  "filters": [],
- "roles": "DMS Admin\nDMS Finance"
+ "roles": [
+  {
+   "role": "DMS Admin"
+  },
+  {
+   "role": "DMS Finance"
+  }
+ ]
 }
